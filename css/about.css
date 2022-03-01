@@ -168,6 +168,8 @@ nav a:hover{
 
 
 
+
+
 /* about me */
 .about {
 	background-color: pink;
@@ -203,12 +205,12 @@ nav a:hover{
 
 .all-about__me .link-img {
 	background: url('/img/link-img.jpg') no-repeat;
-	width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 350px;
+    transform: rotate(10deg) skew(-12deg);
     margin-top: -240px;
     margin-left: 718px;
     float: right;
-    border-radius: 50%;
 	position: absolute;
 } 
 
