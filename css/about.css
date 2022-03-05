@@ -204,10 +204,10 @@ nav a:hover{
 
 
 .all-about__me .link-img {
-	background: url('/img/link-img.jpg') no-repeat;
+	background: url('/img/jen-redA.png') no-repeat;
     width: 220px;
-    height: 350px;
-    transform: rotate(10deg) skew(-12deg);
+    height: 336px;
+    transform: rotate(-10deg) skew(-24deg);
     margin-top: -240px;
     margin-left: 718px;
     float: right;

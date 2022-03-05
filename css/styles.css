@@ -230,23 +230,24 @@ nav a:hover{
 
 
 .container #picture.one{
-    background: url('img-promo.html');
+    background: url('/img/promotional-thisOne.jpg');
     background-size: cover;
+    
 }
 
 .container #picture.two{
-    background: url('/img-trans.html');
+    background: url('/img/transactional-thisOne.jpg');
     background-size: cover;
 }
 
 .container #picture.three{
-    background: url('img-news.html');
-    /* background-size: cover; */
+    background: url('/img/newsletter-thisOne.jpg');
+    background-size: cover;
 }
 
 .container #picture.four{
-    background: url('img-landing.html');
-    /* background-size: cover; */
+    background: url('/img/landing-thisOne.jpg');
+    background-size: cover;
 }
 
 
