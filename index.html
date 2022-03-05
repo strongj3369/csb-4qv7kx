@@ -6,26 +6,28 @@
     <title>Jennifer Strong | HTML Email Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="css/all-images.css"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Tajawal:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Tajawal:wght@500;700&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-        
-    <script src="js/main.js" defer></script>
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
 </head>
 
 <body>
     <header>
-        <h1 class="logo">Jennifer</h1> 
+        <h1 class="logo">Jennifer</h1>
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <nav>
             <ul class="nav-area">
-                <li class="nav__item"><a href="/work.html" class="nav__link">work</a></li>
-                <li class="nav__item"><a href="/about.html" class="nav__link">about</a></li>
-                <li class="nav__item"><a href="/contact.html" class="nav__link">contact</a></li>
+                <li class="nav__item"><a href="work.html" class="nav__link">work</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">about</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">contact</a></li>
                 <li>
                     <a href="https://github.com/strongj3369" target="_blank">
                         <i class="fab fa-github"></i>
@@ -39,29 +41,49 @@
             </ul>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label">
-    <span></span></label>
+            <span></span></label>
     </header>
 
 
+    <div class="container">
+        <div id="picture"></div>
+        <ul>
+            <li rel="one"><a href="#" data-text="Promotional Email">Promotional Email</a></li>
+        </ul>
 
+        <ul>
+            <li rel="two"><a href="#" data-text="Transactional Email">Transactional Email</a></li>
+        </ul>
+        <ul>
+            <li rel="three"><a href="#" data-text="Newsletter Email">Newsletter Email</a></li>
+        </ul>
+        <ul>
+            <li rel="four"><a href="#" data-text="Landing Page">Landing Page</a></li>
+        </ul>
 
-    <div class="wrapper">
-        <div class="content">
-            <li><a href="promotional.html" target="_blank">Promotional Email</a></li>
-            <li><a href="nike-index.html" target="_blank">Transactional Email</a></li>
-            <li><a href="index-htmlemail-graduation.html" target="_blank">Newsletter Email</a></li>
-            <li><a href="index.headphones.html" target="_blank">Landing Page</a></li>
-        </div>
     </div>
 
 
 
-    
+
+
+
+
     <div class="footer">
         <h6>© All rights reserved 2022 | jennifer.strong</h6>
     </div>
 
 
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $('ul li').hover(function () {
+            $('#picture').removeClass().addClass($(this).attr('rel'));
+            $(this).addClass('active').siblings()
+                .removeClass('active');
+        });
+    </script>
 </body>
 
 </html>

@@ -1,0 +1,27 @@
+*, body, #slider, .wrap{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+       
+}
+
+.wrap{
+    position: relative;
+}
+ 
+
+.slide{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide1{background-image: url('/img/promotional-thisOne.jpg');}
+.slide2{background-image: url('/img/transactional-thisOne.jpg');}
+.slide3{background-image: url('/img/newsletter-thisOne.jpg');}
+.slide4{background-image: url('/img/landing-thisOne.jpg');}
+
