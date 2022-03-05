@@ -3,14 +3,14 @@
 }
 
 body{
-    background-color: pink;
+    background-color: #ffe4e1;;
     margin: 0;
     font-family: 'Nova Square', cursive;
 }
 /* navigation styles starts */
 
 header{
-    background-color: pink;
+    background-color: #ffe4e1;;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -68,7 +68,7 @@ nav {
     text-align: left;
     top: 100%;
     left: 0;
-    background-color: pink;
+    background-color: #ffe4e1;;
     width: 100%;
     transform: scale(1,0);
     transform-origin: top;
@@ -96,7 +96,7 @@ nav a{
 }
 
 nav a:hover{
-    color: aliceblue;
+    color: #57eeff;
 }
 
 .nav-toggle:checked ~ nav{
@@ -177,7 +177,7 @@ section{
     height: 100%;
     width: 100%;
     padding-top: 148px;
-    background-color: pink;
+    background-color: #ffe4e1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -222,19 +222,19 @@ button[type="submit"]{
     border: none;
     outline: none;
     padding: 20px;
-    font-size: 1rem;
+    font-size: 1.4rem;
     border-radius: 8px;
     font-family: inherit;
-    color: rgb(27,166,247);
+    color: #000;
     text-align: center;
     cursor: pointer;
     margin-top: 10px;
-    transition: .3 ease background-color;
+    transition: .3 ease;
 }
 
 
 button[type="submit"]:hover{
-    background-color: rgb(214,226,236);
+    background-color: #57eeff;
 }
 
 #status{
@@ -254,7 +254,7 @@ button[type="submit"]:hover{
 
 #status.error{
     background-color: rgb(255, 77, 71);
-    color: white;
+    color: rgb(14, 6, 6);
     animation: status 4s ease forwards;
 }
 
