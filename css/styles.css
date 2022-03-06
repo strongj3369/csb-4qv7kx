@@ -105,6 +105,21 @@ nav a:hover{
 
 
 
+
+@media screen and (max-width: 600px){
+
+    body{
+        overflow: hidden;
+    }
+
+    .container ul li{
+        font-size: 12px;
+    }    
+}    
+
+
+
+
 @media screen and (min-width: 1220px){
     .nav-toggle-label{
         display: none;
