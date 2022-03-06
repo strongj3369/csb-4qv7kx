@@ -186,13 +186,13 @@ nav a:hover{
 }
 
 
+
+
 .footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;          
+    margin: 0px;
     text-align: center;
-}
+ }
+ 
 
 
 @media only screen and (max-width: 601px) {

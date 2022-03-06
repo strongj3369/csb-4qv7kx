@@ -180,10 +180,8 @@ nav a:hover{
     margin: 0 auto;
     padding-top: 40px;
     background-color: #ffe4e1;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; 
     position: relative;
 }
 

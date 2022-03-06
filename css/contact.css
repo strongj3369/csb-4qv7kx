@@ -274,9 +274,11 @@ button[type="submit"]:hover{
 }
 
 
+
 .footer{
-   margin: 5px;
-   text-align: center;
-}
-
-
+    margin: 0px;
+    text-align: center;
+ }
+ 
+ 
+ 
