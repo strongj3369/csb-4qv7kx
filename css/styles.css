@@ -105,7 +105,7 @@ nav a:hover{
 
 
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 1220px){
     .nav-toggle-label{
         display: none;
     }
@@ -164,11 +164,6 @@ nav a:hover{
 
 
 
-/* @media screen and (max-width: 600px){
-  
-    }
-
-} */
 
 .container {
     display: grid;
@@ -192,6 +187,7 @@ nav a:hover{
 .container ul li {
     position: relative;
     list-style: none;
+   
 }
 
 .container ul li a {
@@ -209,20 +205,6 @@ nav a:hover{
 .container ul li active a:before {
     width: 100%;
 }   
-/*
-   content: attr(data-text);
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 0;
-   overflow: hidden;
-   color: #fff;
-   transition: width 0.5s;
-}
-
-.container ul li a:hover:before {
-   width: 100%;
-} */
 
 
 .container #picture{
@@ -260,9 +242,21 @@ nav a:hover{
 
 
 .footer{
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
+    bottom: 10px;
     width: 100%;
     height: 2.5rem;          
     text-align: center;
 }
+
+
+
+
+@media screen and (max-width: 600px){
+    .container ul li {
+        font-size: 12px;
+        
+  
+    }
+
+} 
