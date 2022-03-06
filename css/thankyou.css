@@ -3,14 +3,14 @@
 }
 
 body{
-    background-color: red;
+    background-color: #ffe4e1;;
     margin: 0;
     font-family: 'Nova Square', cursive;
 }
 /* navigation styles starts */
 
 header{
-    background-color: #ffe4e1;
+    background-color: #ffe4e1;;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -21,7 +21,6 @@ header{
     text-decoration: none;
     color: black;
 }
-
 
 .nav-toggle{
     display: none;
@@ -167,26 +166,23 @@ nav a:hover{
 }
 
 
-
-section{
-    height: 100%;
-    width: 100%;
-    padding-top: 148px;
-    background-color: #ffe4e1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.bigImage {
+    width: 100vw;
+    height: 100vh;
     position: relative;
+    background-image: url('/img/thankyouB.jpg');
+    background-size: cover;
 }
 
-
-
-h1{
-    text-align: center;
-    margin-top: 100px;
-    font-size: 4rem;
-    
+.overlay{
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -196,4 +192,14 @@ h1{
     width: 100%;
     height: 2.5rem;          
     text-align: center;
+}
+
+
+@media only screen and (max-width: 601px) {
+    .overlay{
+        font-size: 20px;
+        justify-content: first baseline;
+        padding: 10px;
+       
+    }
 }
