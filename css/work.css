@@ -114,16 +114,6 @@ nav a:hover{
 
 
 
-@media screen and (min-width: 100px) and (max-width: 600px){
-
- 
-    .wrapper .content ul li a {
-        font-size: 1.9em;
-       
-    }
-}
-    
-
 @media screen and (min-width: 1220px){
     .nav-toggle-label{
         display: none;
@@ -228,3 +218,15 @@ nav a:hover{
     text-align: center;
  }
  
+
+
+
+@media screen and (min-width: 100px) and (max-width: 600px){
+
+ 
+    .wrapper .content ul li a {
+        font-size: 1.9em;
+       
+    }
+}
+    
