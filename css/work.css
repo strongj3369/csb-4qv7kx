@@ -116,12 +116,9 @@ nav a:hover{
 
 @media screen and (min-width: 100px) and (max-width: 600px){
 
-    body{
-        overflow: hidden;
-    }
-
+ 
     .wrapper .content ul li a {
-        font-size: 2em;
+        font-size: 1.9em;
        
     }
 }
