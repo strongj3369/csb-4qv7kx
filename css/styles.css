@@ -112,13 +112,12 @@ nav a:hover{
         overflow: hidden;
     }
 
-    .container ul li{
-        font-size: 12px;
-    }    
-}    
+    .container ul li a{ 
+        font-size: 2.8px;
 
-
-
+    }
+}
+    
 
 @media screen and (min-width: 1220px){
     .nav-toggle-label{

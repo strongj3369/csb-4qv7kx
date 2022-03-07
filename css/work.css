@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
 }
+html{ 
+    height: 100%;
+}
+
 
 body{
     background-color: #ffe4e1;
@@ -110,83 +114,18 @@ nav a:hover{
 
 
 
-
 @media screen and (max-width: 600px){
 
     body{
         overflow: hidden;
     }
 
-    .nav-toggle-label{
-        display: none;
+    .container ul li a{ 
+        font-size: 2.8px;
+
     }
-
-    .container ul li{
-        font-size: 12px;
-    }    
-
-    
-
-    header{
-        display: grid;
-        grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
-    }
-
-    .logo{
-        grid-column: 2 / 1;
-        font-size: 1.8rem;
-        padding-left: 25px;
-    }
-
-    nav{
-        all: unset;
-        grid-column: 4 / 4;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        
-    }
-    nav ul{
-        display: flex;
-    }
-
-    nav li{
-        margin-left: 3em;
-        margin-bottom: 0;
-    }
-
-
-    nav a {
-        opacity: 1;
-        position: relative;
-       
-    }
-
-    nav a::before{
-        content: '';
-        display: block;
-        height: 5px;
-        background: black;
-        position: absolute;
-        bottom: -.75em;
-        left: 0;
-        right: 0;
-        transform: scale(0,1);
-        transition: transform ease-in-out 250ms;
-    }
-    nav a:hover::before {
-        transform: scale(1,1);
-    }
-
-
-
 }
-
-
-
-
-
-
+    
 
 @media screen and (min-width: 1220px){
     .nav-toggle-label{
@@ -225,7 +164,6 @@ nav a:hover{
     nav a {
         opacity: 1;
         position: relative;
-       
     }
 
     nav a::before{
@@ -245,6 +183,7 @@ nav a:hover{
     }
 
 }
+
 
 
 
