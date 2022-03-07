@@ -1,9 +1,9 @@
 *{
     box-sizing: border-box;
 }
-html{ 
+/* html{ 
     height: 100%;
-}
+} */
 
 
 body{
@@ -114,15 +114,15 @@ nav a:hover{
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 100px) and (max-width: 600px){
 
     body{
         overflow: hidden;
     }
 
-    .container ul li a{ 
-        font-size: 2.8px;
-
+    .wrapper .content ul li a {
+        font-size: 2em;
+       
     }
 }
     
@@ -217,12 +217,11 @@ nav a:hover{
     position: relative;
     box-sizing: border-box;
     text-decoration: none;
-    font-size: 3.6em;
+    font-size: 3em;
     color: #000;
     font-weight: 400;
     transition: 0.5s;
 }
-
 
 
 
