@@ -30,17 +30,18 @@ header a {
 header .logo {
 	float: left;
 	margin-right: 50px;
+	margin-top: 30px;
 }
 
 header .logo img {
-	width: 50px;
+	width: 83px;
 	 
 }
 
 header .menu {
 	float: left;
 	position: absolute;
-	top: 15px;
+	top: 25px;
 }
 
 header .menu a {
@@ -366,7 +367,7 @@ header .header-buttons .orange-btn {
 
 #design-by .design-container .icons-section .refresh-circle {
 	position: absolute;
-	left: 45%;
+	left: 44%;
 	top: 41%;
     width: 80px;
     height: 80px;
@@ -379,7 +380,7 @@ header .header-buttons .orange-btn {
     color: #fea83b;
     font-size: 2.5rem;
     top: 20px;
-    left: 20px;
+    left: 21px;
 }
 
 #design-by .design-container .icons-section .icon-box {
