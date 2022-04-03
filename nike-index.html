@@ -5,58 +5,80 @@
     <meta charset="utf-8">
     <title>Nike Refund Receipt</title>
     <meta name="viewport" content="width=device-width, initial-scale-1">
-  
+
 
     <style>
         /* desk top*/
-    @media only screen and (min-width: 960px){
-        .container {
-            width: 960px;
-        }
-      
-    }
+        @media only screen and (min-width: 960px) {
+            .container {
+                width: 960px;
+            }
 
-/* midsizes */
-
-    @media only screen and (max-width: 960px){
-        .container {
-            width: 600px;
-        }
-        .payment-details {
-            width: 100%;
-            font-size: 1rem;
         }
 
-        .money-line {
-            width: 100%;
-            padding-left: 175px !important;
-        }
-    }
+        /* midsizes */
 
-    /* mobile*/
-    @media only screen and (max-width: 600px){
-        .container {
-            width: 100%;
+        @media only screen and (max-width: 960px) {
+            .container {
+                width: 600px;
+            }
+
+            .payment-details {
+                width: 100%;
+                font-size: 1rem;
+
+            }
+
+            .money-line {
+                width: 100%;
+                padding-left: 10px !important;
+            }
         }
 
-        .payment-details {
-            width: 100%;
-        }
-        .money-line {
-            width: 100%;
-            padding-left: 80px !important;
-        }
-    }
+        /* mobile*/
+        @media only screen and (max-width: 600px) {
+            .container {
+                width: 100%;
+            }
 
+            .payment-details {
+                width: 100%;
+
+            }
+
+            .money-line .card {
+                width: 100%;
+                padding-left: 10px !important;
+                margin-left: 20px;
+            }
+
+            .money-line span {
+                width: 100%;
+                padding-left: 10px !important;
+                margin-left: 40px;
+            }
+
+            .money-line p {
+                width: 100%;
+                font-size: 16px !important;
+            }
+
+            .money-line .total-amount {
+                width: 100%;
+                padding-left: 20px !important;
+                margin-left: 40px;
+            }
+        }
     </style>
 
 </head>
 
 <body bgcolor="#e3e3e3">
-    <table width="100%" margin="0" cellspacing="0" cellpadding="0" style="border: 10px solid purple;" align="center">
+    <table width="100%" margin="0" cellspacing="0" cellpadding="0" style="border: 0px solid purple;" align="center">
         <tr>
             <td>
-                <table class="container" cellpadding="0" cellspacing="0" width="800" style="border: 10px solid #444;" align="center">
+                <table class="container" cellpadding="0" cellspacing="0" width="800" style="border: .5px solid #444;"
+                    align="center">
                     <tr>
                         <td>
                             <table cellpadding="0" cellspacing="0" width="100%" style="border: 0px dotted blue;"
@@ -95,7 +117,9 @@
                                             <tr>
                                                 <td style="padding: 60px; background-color: white;">
                                                     <p style="font-size: 1.3rem;">Hi Jennifer,</p>
-                                                    <p style="line-height: 1.5; font-size: 1.2rem;">We've processed a refund for your returned merchandise for Order C00652165482. You can find details below.</p>
+                                                    <p style="line-height: 1.5; font-size: 1.2rem;">We've processed a
+                                                        refund for your returned merchandise for Order C00652165482. You
+                                                        can find details below.</p>
                                                 </td>
                                             </tr>
                                         </table>
@@ -122,13 +146,17 @@
                                             <tr>
                                                 <td class="money-line"
                                                     style="padding: 20px; line-height: 1.3; font-size: 1.1rem; padding-left: 230px; font-weight: 700; background-color: white;">
-                                                    <span style="padding-right: 100px; padding-bottom: 25px;">Credit
-                                                        Card</span> <span>$32.97</span>
+                                                    <span class="card"
+                                                        style="margin-left: 100px;padding-right: 20px; padding-bottom: 25px;">Credit
+                                                        Card</span> <span style="padding-left:100px;">$32.97</span>
                                                     <br>
-                                                    (*****8177)<br>
-                                                    <p style="font-size: 1.3rem; padding-right: 30px;">Total Refunded:
+                                                    <span style="margin-left:100px;">(*****8177)</span><br>
+                                                    <p
+                                                        style="font-size: 1.3rem;margin-left:100px; padding-right: 30px;">
+                                                        Total Refunded:
 
-                                                        <span style="padding-left:45px;">$32.97</span>
+                                                        <span class="total-amount"
+                                                            style="padding-left:60px;">$32.97</span>
                                                     </p>
                                                 </td>
                                             </tr>
@@ -217,7 +245,7 @@
 
                             </table>
                         </td>
-                    </tr>        
+                    </tr>
 
                 </table>
             </td>

@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML EMAIL NEWSLETTER</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f6f9fc;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #f6f9fc;
+            padding-bottom: 40px;
+        }
+
+        .webkit {
+            max-width: 600px;
+            background-color: #ffffff;
+        }
+
+        .outer {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: sans-serif;
+            background-color: #ffffff;
+            color: #000;
+        }
+
+        .three-columns {
+            text-align: center;
+            font-size: 0;
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+
+        .three-columns .column {
+            width: 100%;
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: right;
+            /* these two above makes the boxes responsive display needs to be inline block - 
+			 without them the boxes would be on top of each other in email clients */
+        }
+
+        .padding {
+            padding: 15px;
+        }
+
+        .three-columns .content {
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #02838d;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        button {
+            background-color:#02838d;
+            color: #ffffff;
+            padding: 1em 5em;
+            border: none;
+            margin: .3em;
+        }
+
+
+        .two-columns {
+            text-align: left;
+            font-size: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .two-columns .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: right;
+            /* these two above makes the boxes responsive display needs to be inline block - 
+			 without them the boxes would be on top of each other in email clients */
+        }
+
+
+        @media screen and (max-width: 600px) {
+            .two-columns {
+                text-align: center;
+                width: 100%;
+            }
+
+            .two-columns .column {
+                width: 100%;
+                max-width: 250px;
+                display: inline-block;
+                vertical-align: right;
+            }
+
+            .vid-img {
+                width: 100%;
+                max-width: 200px;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .two-columns {
+                text-align: center;
+                width: 100%;
+            }
+
+            .two-columns .column {
+                width: 100%;
+                max-width: 250px;
+                display: inline-block;
+                vertical-align: right;
+            }
+
+            .vid-img {
+                width: 100%;
+                max-width: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color: #ffffff;">
+
+    <center class="wrapper">
+        <div class="webkit" style="border: 20px solid #eef5f6;">
+            <table class="outer" align="center">
+
+                <tr>
+                    <td>
+                        <a href="https://www.healthline.com/" target="_blank"><img src="img/main-photo.png" width="600" alt="Banner"
+                                style="max-width: 100%;"></a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <table width="100%" style="border-spacing: 0;background-color:#fcf5ed;">
+                            <h1 style="padding-top: 40px;padding: 0 40px; font-size: 1.7em;">Day 2: Get more light
+                                during the day</h1>
+                            <p style="padding: 0 35px;line-height: 1.5;">There’s a scientific reason behind “lights
+                                out.” Exposure to light, even the blue light from your phone, makes it harder for your
+                                brain to shut off, which affects the quality of your sleep. But getting more sunlight
+                                during the day is good for your circadian rhythm, which keeps your sleep cycle in
+                                balance. If you often wake up too early or fall asleep too late, here's how more light
+                                can fix it.</p>
+
+
+                            <tr>
+                                <td style="padding-left: 30px;background-color: #ffffff;">
+                                    <button type="button" style="background-color: #01adb9;padding:1em 6.5em;">
+
+                                        <a href="https://www.healthline.com/program/build-a-better-sleep-routine?utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd#day-2"
+                                            target="_blank" style="color:#ffffff;font-weight: 700;">READ MORE
+                                            <span>&#129122; </span> </a>
+                                    </button>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <a href="https://www.healthline.com/nutrition/magnesium-benefits?slot_pos=article_1&utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd"
+                            target="_blank"><img src="img/spoons.jpg" width="100%" alt=""
+                                style="max-width: 100%; margin-top: 80px;"></a>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <table width="100%" style="border-spacing: 0;">
+                            <h2 style="padding: 0 38px; font-size: 1.7em;">12 Evidence-Based Health Benefits of
+                                Magnesium</h2>
+                            <p style="padding: 0 40px; line-height: 1.5;">From regulating blood sugar levels to boosting
+                                athletic performance, magnesium is a crucial micronutrient — but you might not get
+                                enough from the foods you eat.</p>
+
+                            <tr>
+                                <td style="padding: 10px 30px;">
+                                    <button type="button">
+
+                                        <a href="https://www.healthline.com/nutrition/magnesium-benefits?slot_pos=article_1&utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd"
+                                            target="_blank" style="color:#ffffff;font-weight: 700;">READ ON
+                                            <span>&#129122; </span> </a>
+                                    </button>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <table width="100%" style="border-spacing: 0;">
+                            <tr>
+                                <td class="three-columns">
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="https://www.healthline.com/nutrition/10-foods-high-in-magnesium#_noHeaderPrefixedContent" target="_blank"><img src="img/chocolate.png"
+                                                                    width="150" alt="" style="max-width: 150px;"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 10px;">
+                                                            <p style="font-size: 17px;font-weight: 900
+                                                             "> Dark chocolate is as healthy. It’s very rich in
+                                                                magnesium</p>
+                                                            <a href="https://www.healthline.com/nutrition/10-foods-high-in-magnesium#_noHeaderPrefixedContent"
+                                                                target="_blank">READ ON <span>&#129122;</span> </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="https://www.healthline.com/nutrition/13-anti-inflammatory-foods" target="_blank"><img src="img/berries.jpg"
+                                                                    width="157" alt="" style="max-width: 157px;"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 10px;">
+                                                            <p style="font-size: 17px;font-weight: 900
+                                                             ">13 of the Most Anti-Inflammatory Foods</p>
+                                                            <a href="https://www.healthline.com/nutrition/13-anti-inflammatory-foods"
+                                                                target="_blank">READ ON <span>&#129122;</span> </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="https://www.healthline.com/nutrition/14-foods-to-avoid-on-low-carb?slot_pos=article_2&utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd" target="_blank"><img src="img/avoid-food.jpg"
+                                                                    width="165" alt="" style="max-width: 165px;"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 10px;">
+                                                            <p style="font-size: 17px;font-weight: 900
+                                                             "> 14 Foods to Avoid (or Limit) on a Low Carb Diet</p>
+                                                            <a href="https://www.healthline.com/nutrition/14-foods-to-avoid-on-low-carb?slot_pos=article_2&utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd" target="_blank">READ ON <span>&#129122;</span>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="https://www.healthline.com/nutrition/benefits-of-pineapple?slot_pos=article_5&utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd" target="_blank"><img
+                                                                    src="img/pinapples-4.jpg" width="150" alt=""
+                                                                    style="max-width: 150px;"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 10px;">
+                                                            <p style="font-size: 17px;font-weight: 900
+                                                            ">Pineapple: 8 Impressive Health Benefits</p>
+                                                            <a href="https://www.healthline.com/nutrition/benefits-of-pineapple?slot_pos=article_5&utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd" target="_blank">READ ON <span>&#129122;</span>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+
+
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <a href=https://www.healthline.com/nutrition/are-peanut-butter-and-jelly-sandwiches-healthy?slot_pos=article_3&utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd" target="_blank"><img
+                                                                    src="img/peanut-jelly-2.jpg" width="150" alt=""
+                                                                    style="max-width: 150px;"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 10px;">
+                                                            <p style="font-size: 17px;font-weight: 900
+                                                            ">Health Benefits of Peanut Butter & Jelly</p>
+                                                            <a href="https://www.healthline.com/nutrition/are-peanut-butter-and-jelly-sandwiches-healthy?slot_pos=article_3&utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd" target="_blank">READ ON <span>&#129122;</span>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                            <a href="https://www.healthline.com/nutrition/folic-acid-vs-folate?slot_pos=article_4&utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd" target="_blank"><img
+                                                                    src="img/white-pills-3.jpg" width="150" alt=""
+                                                                    style="max-width: 150px;"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 10px;">
+                                                            <p style="font-size: 17px;font-weight: 900
+                                                             ">Folic Acid vs. Folate — Whats the Difference?</p>
+                                                            <a href="https://www.healthline.com/nutrition/folic-acid-vs-folate?slot_pos=article_4&utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd" target="_blank">READ ON <span>&#129122;</span> </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                            <tr>
+                                <td style="padding: 10px 30px; padding-bottom: 35px">
+                                    <button type="button">
+
+                                        <a href="https://www.healthline.com/wellness"
+                                            target="_blank" style="color:#ffffff;font-weight: 700;">MORE TOP READS
+                                        </a>
+                                    </button>
+                                </td>
+                            </tr>
+                    </td>
+                </tr>
+            </table>
+
+
+
+            <tr>
+                <td>
+                    <table width="100%" style="border-spacing: 0; background-color: #dfedee;">
+                        <tr>
+                            <td class="two-columns">
+
+                                <table class="column">
+
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td style="padding: 10px">
+                                                        <h3 style="font-size: 14px;padding-left: 4px;color: #918f8f;">HEALTHLINE VIDEO
+                                                        </h3>
+
+                                                        <h2 style="font-size: 20px;font-weight: 900;"> Cracking the
+                                                            Sleep Code</h2>
+                                                        <p style="padding: 0px; line-height: 1.5;font-size:14px;">
+                                                            Getting quality sleep is not a luxury, it’s a necessity. The
+                                                            good news is: Great sleep is within your reach.</p>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td style="padding:10px">
+                                                        <button type="button">
+
+                                                            <a href="https://www.healthline.com/health/cracking-the-sleep-code#1"
+                                                                target="_blank" style="color:#ffffff;font-weight: 700;">WATCH NOW
+                                                                <span>&#129122; </span> </a>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td style="padding: 5px;">
+                                                        <a href="https://www.healthline.com/health/cracking-the-sleep-code#1" target="_blank"><img src="img/vid-img.jpg"
+                                                                width="250" alt="" style="max-width: 250px;"
+                                                                class="vid-img"></a>
+                                                    </td>
+
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td>
+                    <table width="100%" style="border-spacing: 0; background-color: #ffffff;">
+                        <tr>
+                            <td class="two-columns">
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td style="padding: 10px">
+                                                        <h3 style="font-size: 14px; padding-left: 1px;color: #918f8f;">HEALTHLINE
+                                                            RESOURCE</h3>
+                                                        <h2 style="display: block;font-size: 20px;font-weight: 900;">
+                                                            Better Sleep Is One Click Away</h2>
+                                                    </td>
+
+                                                </tr>
+
+                                                <tr>
+                                                    <td style="padding: 5px;">
+                                                        <a href="https://www.healthline.com/sleep?utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd" target="_blank"><img src="img/better-sleep.png"
+                                                                width="250" alt="" style="max-width: 250px;"
+                                                                class="vid-img"></a>
+                                                    </td>
+
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="column">
+
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td style="padding: 10px">
+
+                                                        <p style="padding: 0px; line-height: 1.5;font-size:14px;">Did
+                                                            you know that good sleep can improve your relationships,
+                                                            immunity, and more? If you need help getting your Zzz’s,
+                                                            explore Healthline Sleep for routines and tips for better
+                                                            sleep. Really.</p>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td style="padding:10px">
+                                                        <button type="button">
+                                                            <a href="https://www.healthline.com/sleep?utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd" target="_blank" style="color:#ffffff;font-weight: 700;">GO NOW
+                                                             <span>&#129122; </span> </a>
+                                                        </button>
+                                                            
+
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td style="border-top:8px solid #dcdbdb; border-bottom:8px solid #dcdbdb">
+                    <table width="100%" style="border-spacing: 0; background-color: #f7f7f7">
+                        <tr>
+                            <td class="two-columns">
+
+                                <table class="column">
+
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td style="padding: 10px">
+                                                        <h3 style="font-size: 14px; padding-left: 4px;">ADVERTISEMENT
+                                                        </h3>
+
+                                                        <h2 style="font-size: 20px;font-weight: 900;"> Start a custom
+                                                            weight loss program</h2>
+                                                        <p style="padding: 0px; line-height: 1.5;font-size:14px;">Noom
+                                                            helps you adopt healthy habits so you can lose weight and
+                                                            keep it off. Your program is customized to your goals and
+                                                        </p>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td style="padding:10px">
+                                                        <button type="button" style="padding:1em 4em;">
+                                                        <a href="https://www.noom.com/programs/health-weight/affiliate-trial-npb/?upv=3&sp=redventures&utm_source=healthline&utm_medium=partnerweb&utm_campaign=cpaf14trial&utm_content=hl_noom_newsletter_v1-27095023.478685&step=pros&lang=en&clid=127478894" target="_blank" style="color:#ffffff;font-weight: 700;">GET STARTED
+                                                            <span>&#129122; </span> </a> </button>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td style="padding: 5px;">
+                                                        <a href="https://www.noom.com/programs/health-weight/affiliate-trial-npb/?upv=3&sp=redventures&utm_source=healthline&utm_medium=partnerweb&utm_campaign=cpaf14trial&utm_content=hl_noom_newsletter_v1-27095023.478685&step=pros&lang=en&clid=127478894" target="_blank"><img src="img/advertise.jpg"
+                                                        width="230" height="190" alt=""
+                                                        style="max-width: 230px;" class="vid-img"></a>
+                                                    </td>
+
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td>
+                    <table width="100%" style="border-spacing: 0; background-color: #fbf5ed;">
+                        <tr>
+                            <td style="padding: 15px;text-align: center;">
+                                <p style="font-size: 18px;color: #ffffff;margin-bottom: 1px;"></p>
+                                <a href="https://www.healthline.com/" target="_blank"><img src="img/logo-healthline.png" width="200px"
+                                        alt=""></a>
+
+                                <p>
+                                    <a href="https://www.facebook.com/healthline/?utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd" target="_blank"><img src="img/facebook.png" style="max-width:16px;"
+                                            alt=""></a>
+                                    <a href="https://twitter.com/healthline?utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd" target="_blank"><img src="img/twitter.png"
+                                            style="max-width:22px; margin-left: 20px;" alt=""></a>
+                                    <a href="https://www.instagram.com/healthline/?utm_source=Sailthru%20Email&utm_medium=Email&utm_campaign=generalhealth&utm_content=2022-03-21&apid=26136840&rvid=d3616c550087c7b7c10d8908a5567b99d17cf83961a74c049b1b111ef2b419dd" target="_blank"><img src="img/instra.png"
+                                            style="max-width:20px; margin-left:20px;" alt=""></a>
+                                </p>
+
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <table width="100%" style="border-spacing: 0;">
+
+                                    <tr>
+                                        <td style="padding: 0px;text-align: center;">
+                                            <p><a href="https://link.healthline.com/view/59a74eff24c17c0f2e797e3fg4qnj.a9ct/7a62ca9b" target="_blank"
+                                            style="font-size:15px;color: #000;text-decoration: underline; font-weight: 400;">View
+                                            in browser</a></p>
+
+                                    
+                                            <p style="font-size: 14px;">Did a friend send you this email? <a href="https://www.healthline.com/newsletter-signup"
+                                            target="_blank"
+                                            style="color: #000;text-decoration: underline;font-weight: 400;">Subscribe here </a>
+                                        <br>
+                                        To see all newsletters, <a href="https://www.healthline.com/newsletter-signup" target="_blank"
+                                            style="color: #000;text-decoration: underline;font-weight: 400;">click here</a></p>
+                                    <tr>
+                                        <td align="center" style="text-align: center;">
+
+                                            <p><a href=https://www.healthline.com/about/privacy-policy#" target="_blank"
+                                                    style="font-size:15px;color: #000;text-decoration: underline;font-weight: 400;">Privacy</a><span
+                                                    style="padding-left:12px">|</span>
+                                                <a href="https://link.healthline.com/manage/55w/oc?message_id=27095023.00478685&hash=05e9cd86" target="_blank"
+                                                    style="font-size:15px;color: #000;text-decoration: underline;padding-left:8px;font-weight: 400;">
+                                                    Unsubscribe</a>
+                                            </p>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center" style="padding-bottom: 80px;text-align: center;">
+                                            <p><a href="#" target="_blank" style="font-size:13px;color: #000;font-weight: 400;">@ 2022
+                                                    Healthline Media<br>660 3rd Street,
+                                                    San Francisco, CA 94107</a></p>
+                                        </td>
+                                    </tr>
+
+
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+        </div>
+    </center>
+</body>
+
+</html>
