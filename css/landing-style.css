@@ -78,7 +78,7 @@ body {
 ==================================== */
 
 /* Small devices  */
-@media screen and (min-width: 300px) and (max-width: 766px) {
+@media screen and (min-width: 200px) and (max-width: 766px) {
 
     body {
         width: 100%;
@@ -317,6 +317,8 @@ body {
 }
 
 
+
+
 #boxes .body {
     max-width: 100%;
     margin-left: auto;
@@ -334,7 +336,7 @@ body {
     margin: 0 3%;
     width: 33.33%;
     float: left;
-    padding: 0 15px;
+    padding: 0 8px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -365,7 +367,7 @@ body {
 }
 
 #boxes .body .column p span {
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 700;
 
 }
@@ -379,6 +381,19 @@ body {
 }
 
 
+
+
+
+
+@media screen and (min-width: 200px) and (max-width: 766px) {
+
+    #boxes .body .column p span {
+        font-size: 1rem; 
+               
+    }
+}
+
+
 @media only screen and (max-width: 1215px) {
 
     #boxes .body .column .col-1,
@@ -387,7 +402,7 @@ body {
         width: 100%;
         margin-bottom: 5px;
         font-size: .8rem;
-        margin-left: -2px;
+        margin-left: -27px;
     }
 
 
@@ -767,14 +782,14 @@ address {
     margin-top: auto 0;
     margin-bottom: 0;
     padding: 15px;
-    background-color: #aeb528;
+    background-color: #3aaee0;
     position: relative;
     border: 1px solid black;
     text-align: center;
 }
 
 #footer .bee-icon img {
-    width: 5.3%;
+    width: 2.3%;
     margin-left: auto;
     margin-right: auto;
 }
